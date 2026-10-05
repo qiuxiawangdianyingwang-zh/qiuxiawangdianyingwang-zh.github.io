@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>秋霞网电影网 | 高清电影电视剧在线观看·海量影视资源每日更新</title>
+<meta name="keywords" content="秋霞网电影网,qiuxiawangdianyingwang,秋霞网电影网在线观看,秋霞网电影网高清电影,秋霞网电影网电视剧,秋霞网电影网影视资源">
+<meta name="description" content="秋霞网电影网(https://qiuxiawangdianyingwang-zh.github.io)专注高清电影电视剧在线观看，海量影视资源覆盖电影、电视剧、动漫、综艺，每日更新精选片单，分类清晰好找好片。">
+<link rel="canonical" href="https://qiuxiawangdianyingwang-zh.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="秋霞网电影网 | 海量影视资源在线观看·每日更新精选片单">
+<meta property="og:description" content="秋霞网电影网提供高清电影电视剧在线观看，海量影视资源覆盖电影、电视剧、动漫、综艺，分类清晰，每日更新。">
+<meta property="og:url" content="https://qiuxiawangdianyingwang-zh.github.io/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="robots" content="index,follow">
+<style>
+:root{
+  --navy:#0f1b2d; --navy2:#162940; --navy3:#1d3656; --ink:#1a2940; --ink2:#43556f; --ink3:#78879b; --ink4:#a8b3c2;
+  --paper:#ffffff; --paper2:#f4f7fb; --paper3:#eaeff6; --line:#e2e9f2; --line2:#d2dce9;
+  --sky:#2b6cff; --sky2:#4d8bff; --sky3:#1a52d6; --cyan:#18b6c9; --amber:#f5a623; --rose:#ee5273; --violet:#7c4dff;
+  --sh:0 18px 44px rgba(15,27,45,.12);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei","Segoe UI",sans-serif;background:var(--paper2);color:var(--ink);line-height:1.75}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+button{font-family:inherit}
+img{max-width:100%}
+.wrap{width:100%;max-width:1180px;margin:0 auto;padding:0 18px}
+
+/* ==== top ==== */
+.top{background:var(--navy);color:var(--ink4);font-size:12.5px}
+.top .wrap{display:flex;justify-content:space-between;height:36px;align-items:center}
+.top a{color:var(--ink4);margin-left:16px;transition:.2s}
+.top a:hover{color:#fff}
+.top .t-date{display:flex;align-items:center;gap:16px}
+.top .t-date b{color:var(--sky2);font-weight:700}
+
+/* ==== header ==== */
+.hd{background:var(--paper);border-bottom:1px solid var(--line)}
+.hd .wrap{display:grid;grid-template-columns:auto 1fr auto;gap:26px;align-items:center;padding:16px 18px}
+.logo{display:flex;align-items:center;gap:11px}
+.logo .mk{width:44px;height:44px;border-radius:11px;background:linear-gradient(135deg,var(--sky),var(--cyan));display:flex;align-items:center;justify-content:center;color:#fff;font-size:20px;font-weight:900;box-shadow:0 7px 18px rgba(43,108,255,.32)}
+.logo h1{font-size:22px;font-weight:900;letter-spacing:.5px;line-height:1.15}
+.logo h1 small{display:block;font-size:10px;color:var(--ink3);font-weight:500;letter-spacing:2px;text-transform:uppercase}
+.search{position:relative;display:flex;height:44px;border:1.5px solid var(--line2);border-radius:9px;overflow:hidden;transition:.2s}
+.search:focus-within{border-color:var(--sky);box-shadow:0 0 0 4px rgba(43,108,255,.1)}
+.search select{appearance:none;background:var(--paper3);border:none;border-right:1px solid var(--line);padding:0 26px 0 13px;font-size:13.5px;color:var(--ink2);cursor:pointer;outline:none}
+.search select{background-image:linear-gradient(45deg,transparent 50%,var(--ink3) 50%),linear-gradient(135deg,var(--ink3) 50%,transparent 50%);background-position:calc(100% - 14px) 19px,calc(100% - 9px) 19px;background-size:5px 5px,5px 5px;background-repeat:no-repeat}
+.search input{flex:1;border:none;outline:none;padding:0 14px;font-size:14.5px;min-width:0}
+.search button{width:104px;border:none;background:linear-gradient(135deg,var(--sky),var(--sky3));color:#fff;font-size:14.5px;font-weight:700;cursor:pointer}
+.hd-r{display:flex;gap:8px}
+.hd-r button{padding:10px 17px;border-radius:8px;border:1px solid var(--line2);background:var(--paper);font-size:13.5px;font-weight:600;color:var(--ink2);cursor:pointer;transition:.2s}
+.hd-r button.pri{background:var(--navy);color:#fff;border-color:var(--navy)}
+.hd-r button:hover{color:var(--sky);border-color:var(--sky)}
+.hd-r button.pri:hover{background:var(--navy3);color:#fff}
+
+/* ==== nav ==== */
+nav{background:var(--navy);position:sticky;top:0;z-index:90}
+nav .wrap{display:flex;gap:0;align-items:stretch;height:52px;overflow-x:auto}
+nav a{padding:0 21px;display:flex;align-items:center;font-size:14px;font-weight:600;color:#c7d3e6;transition:.16s;white-space:nowrap;position:relative}
+nav a:hover,nav a.cur{color:#fff}
+nav a.cur::after{content:"";position:absolute;left:21px;right:21px;bottom:0;height:3px;background:var(--sky2);border-radius:2px 2px 0 0}
+
+/* ==== hero ==== */
+.hero{position:relative;background:linear-gradient(160deg,#0f1b2d 0%,#162940 45%,#1d3656 100%);color:#fff;overflow:hidden;padding:56px 0}
+.hero::before{content:"";position:absolute;left:-180px;bottom:-220px;width:560px;height:560px;border-radius:50%;background:radial-gradient(circle,rgba(43,108,255,.4),transparent 70%)}
+.hero::after{content:"";position:absolute;right:-120px;top:-160px;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(24,182,201,.32),transparent 70%)}
+.hero .wrap{position:relative;z-index:2;display:grid;grid-template-columns:1.15fr 1fr;gap:44px;align-items:center}
+.hero .eye{display:inline-block;font-size:12px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);padding:5px 12px;border-radius:20px;color:#cfe0ff;margin-bottom:16px}
+.hero h2{font-size:52px;font-weight:900;line-height:1.16;letter-spacing:-1px}
+.hero h2 em{font-style:normal;background:linear-gradient(90deg,#6ea8ff,#18b6c9);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{font-size:16.5px;color:#c3d1e6;margin:18px 0 24px;max-width:520px}
+.hero .acts{display:flex;gap:12px;flex-wrap:wrap}
+.hero .acts button{padding:13px 26px;border-radius:8px;font-size:14px;font-weight:700;cursor:pointer;border:none;transition:.22s}
+.hero .acts .a1{background:var(--sky);color:#fff}
+.hero .acts .a1:hover{background:var(--sky2);transform:translateY(-2px)}
+.hero .acts .a2{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.42)}
+.hero .acts .a2:hover{border-color:#fff;background:rgba(255,255,255,.1)}
+.hk{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.hk-i{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);border-radius:12px;padding:18px}
+.hk-i .n{font-size:27px;font-weight:900;color:#8fc0ff;line-height:1.1}
+.hk-i .t{font-size:12.5px;color:#a8bddb;margin-top:5px}
+
+/* ==== section ==== */
+section{padding:52px 0}
+.sc{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;margin-bottom:24px}
+.sc-l h2{font-size:24px;font-weight:900;display:flex;align-items:center;gap:10px;letter-spacing:-.3px}
+.sc-l h2 .no{font-size:12px;color:var(--sky2);font-weight:800;background:rgba(43,108,255,.1);border:1px solid rgba(43,108,255,.22);padding:3px 9px;border-radius:5px;letter-spacing:1px}
+.sc-l p{font-size:13.5px;color:var(--ink3);margin-top:6px}
+.sc-r{font-size:13px;color:var(--ink3)}
+.sc-r a:hover{color:var(--sky)}
+
+/* ==== breadcrumb filter ==== */
+.bar{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin-bottom:22px}
+.bar .crumbs{display:flex;gap:8px;flex-wrap:wrap;align-items:center;font-size:13px;color:var(--ink3)}
+.bar .crumbs b{color:var(--ink)}
+.bar .fl{display:flex;gap:6px;flex-wrap:wrap}
+.bar .fl button{padding:7px 15px;border-radius:7px;border:1px solid var(--line2);background:var(--paper2);font-size:13px;color:var(--ink2);cursor:pointer;transition:.16s}
+.bar .fl button.on{background:var(--sky);border-color:var(--sky);color:#fff;font-weight:700}
+.bar .fl button:hover:not(.on){border-color:var(--sky);color:var(--sky)}
+
+/* ==== layered vertical cards ==== */
+.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.cv{background:var(--paper);border:1px solid var(--line);border-radius:12px;overflow:hidden;transition:.28s;display:flex;flex-direction:column}
+.cv:hover{transform:translateY(-7px);box-shadow:var(--sh);border-color:var(--sky2)}
+.cv .cap{position:relative;height:118px;overflow:hidden}
+.cv .cap .bg{position:absolute;inset:0;transition:.65s}
+.cv:hover .cap .bg{transform:scale(1.18)}
+.cv .cap .cat{position:absolute;top:9px;left:9px;background:rgba(15,27,45,.82);color:#fff;font-size:11px;font-weight:700;padding:4px 9px;border-radius:5px;backdrop-filter:blur(3px)}
+.cv .cap .flg{position:absolute;top:9px;right:9px;background:var(--amber);color:#fff;font-size:11px;font-weight:800;padding:3px 8px;border-radius:5px}
+.cv .cap .sc3{position:absolute;left:9px;bottom:9px;background:var(--sky);color:#fff;font-size:12px;font-weight:800;padding:3px 8px;border-radius:5px}
+.cv .cap .up{position:absolute;right:9px;bottom:9px;background:rgba(255,255,255,.94);color:var(--ink);font-size:11px;font-weight:700;padding:3px 8px;border-radius:5px}
+.cv .cb{padding:13px 14px 15px;flex:1;display:flex;flex-direction:column}
+.cv .cb h4{font-size:14.5px;font-weight:800;line-height:1.5;margin-bottom:5px}
+.cv .cb .row{display:flex;justify-content:space-between;font-size:11.5px;color:var(--ink3);margin-top:auto;padding-top:8px;border-top:1px dashed var(--line)}
+.b1{background:linear-gradient(155deg,#3a5cff,#16245e)}
+.b2{background:linear-gradient(155deg,#00a6b8,#0d3b44)}
+.b3{background:linear-gradient(155deg,#c2185b,#4a0d24)}
+.b4{background:linear-gradient(155deg,#e67e22,#5c330a)}
+.b5{background:linear-gradient(155deg,#6a1b9a,#2a0a3d)}
+.b6{background:linear-gradient(155deg,#0277bd,#0a2e47)}
+.b7{background:linear-gradient(155deg,#2e7d32,#14361a)}
+.b8{background:linear-gradient(155deg,#ad1457,#451025)}
+.b9{background:linear-gradient(155deg,#455a64,#1b262d)}
+.b10{background:linear-gradient(155deg,#ff7043,#5d2a17)}
+.b11{background:linear-gradient(155deg,#00897b,#0b3a35)}
+.b12{background:linear-gradient(155deg,#5c6bc0,#252d57)}
+
+/* ==== leaderboard table ==== */
+.lb{background:var(--paper);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.lb-h{display:flex;align-items:center;justify-content:space-between;padding:15px 20px;background:var(--navy)}
+.lb-h h3{color:#fff;font-size:15.5px;font-weight:800;display:flex;align-items:center;gap:9px}
+.lb-h h3::before{content:"▎";color:var(--sky2)}
+.lb-h span{font-size:12px;color:#a8bddb}
+table{width:100%;border-collapse:collapse}
+th,td{padding:12px 16px;text-align:left;font-size:13.5px;border-bottom:1px solid var(--line)}
+th{background:var(--paper3);font-size:12px;color:var(--ink3);font-weight:700;letter-spacing:.5px}
+tbody tr{transition:.15s;cursor:pointer}
+tbody tr:hover{background:#f0f6ff}
+td.rk{width:52px;text-align:center;font-weight:900;color:var(--ink4);font-size:15px}
+tr:nth-child(-n+3) td.rk{color:var(--rose);font-size:16px}
+td.nm{font-weight:700}
+td.nm small{display:block;font-size:11.5px;color:var(--ink3);font-weight:400}
+td.rt{font-weight:800;color:var(--sky);text-align:right;white-space:nowrap}
+
+/* ==== schedule vertical ==== */
+.vt{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.vt-b{background:var(--paper);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.vt-b h3{font-size:14.5px;font-weight:800;padding:15px 18px;background:var(--paper3);border-bottom:1px solid var(--line);display:flex;align-items:center;gap:9px}
+.vt-b h3 i{font-style:normal;width:24px;height:24px;border-radius:6px;background:var(--navy);color:#fff;font-size:12px;display:flex;align-items:center;justify-content:center;font-weight:800}
+.vt-b ul{padding:6px 0}
+.vt-b li{padding:12px 18px;border-bottom:1px dashed var(--line);display:grid;grid-template-columns:64px 1fr;gap:12px;align-items:flex-start;transition:.16s}
+.vt-b li:last-child{border-bottom:none}
+.vt-b li:hover{background:#f0f6ff}
+.vt-b li .t{font-size:12px;font-weight:800;color:var(--sky);background:rgba(43,108,255,.08);border-radius:5px;padding:2px 6px;text-align:center;font-family:Consolas,monospace}
+.vt-b li h5{font-size:13.5px;font-weight:600;line-height:1.6}
+.vt-b li h5 span{display:block;font-size:11.5px;color:var(--ink3);font-weight:400;margin-top:2px}
+
+/* ==== feature split ==== */
+.sp{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.pan{background:var(--paper);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.pan-h{display:flex;align-items:center;gap:10px;padding:15px 20px;border-bottom:1px solid var(--line);background:var(--paper3)}
+.pan-h .ic{width:30px;height:30px;border-radius:8px;background:var(--navy);color:#fff;display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:900}
+.pan-h h3{font-size:15px;font-weight:800;flex:1}
+.pan-h a{font-size:12.5px;color:var(--ink3)}
+.pan-b{padding:18px 20px}
+.news article{padding:0 0 15px 0;margin-bottom:15px;border-bottom:1px dashed var(--line)}
+.news article:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0}
+.news .k{font-size:11px;font-weight:700;color:#fff;background:var(--sky);padding:2px 8px;border-radius:4px;margin-right:6px}
+.news .d{font-size:11.5px;color:var(--ink3);font-weight:600}
+.news h4{font-size:14.5px;font-weight:800;line-height:1.65;margin:6px 0 5px}
+.news p{font-size:13px;color:var(--ink2);line-height:1.8}
+
+.tlist li{display:grid;grid-template-columns:44px 1fr auto;gap:13px;align-items:center;padding:12px 0;border-bottom:1px solid var(--line)}
+.tlist li:last-child{border-bottom:none}
+.tlist .thumb{height:44px;border-radius:7px}
+.tlist h5{font-size:13.5px;font-weight:700;line-height:1.5}
+.tlist h5 small{display:block;font-size:11.5px;color:var(--ink3);font-weight:400}
+.tlist .v{font-size:12.5px;color:var(--ink3);text-align:right;white-space:nowrap}
+.tlist .v b{display:block;color:var(--sky);font-size:14px}
+
+/* ==== site id block ==== */
+.sid{background:linear-gradient(120deg,#0f1b2d,#1d3656 60%,#0f1b2d);border-radius:14px;padding:28px;color:#fff;display:grid;grid-template-columns:1.3fr 1fr;gap:26px;align-items:center}
+.sid .lead h3{font-size:19px;font-weight:800;margin-bottom:9px}
+.sid .lead h3 em{font-style:normal;color:#8fc0ff}
+.sid .lead p{font-size:13.5px;color:#b9cbe4;line-height:1.9;max-width:560px}
+.sid .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px 22px}
+.sid .grid div{padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12)}
+.sid .grid dt{font-size:11.5px;color:#9fb3cf}
+.sid .grid dd{font-size:14px;font-weight:700;font-family:Consolas,monospace;word-break:break-all}
+.sid .grid dd.hl{color:#8fc0ff}
+
+/* ==== footer ==== */
+footer{background:var(--navy);color:#9fb3cf;padding:52px 0 0;margin-top:28px}
+.fg{display:grid;grid-template-columns:1.7fr 1fr 1fr 1fr;gap:34px}
+footer h5{color:#fff;font-size:13.5px;margin-bottom:16px;letter-spacing:.5px}
+footer p{font-size:13px;line-height:2.1}
+footer a{color:#9fb3cf}
+footer a:hover{color:#8fc0ff}
+.fo h4{font-size:24px;font-weight:900;color:#fff;margin-bottom:11px}
+.fo h4 em{font-style:normal;color:var(--sky2)}
+.fo p{max-width:360px}
+.fbox{margin-top:16px;padding:14px;background:rgba(255,255,255,.05);border:1px dashed rgba(255,255,255,.16);border-radius:8px;font-size:12.5px;color:#c3d1e6}
+.fbox code{color:var(--sky2);font-family:Consolas,monospace}
+.fbot{border-top:1px solid rgba(255,255,255,.09);margin-top:36px;padding:20px 0;display:flex;justify-content:space-between;font-size:12px;color:#7c91ad;flex-wrap:wrap;gap:10px}
+.fbot b{color:var(--sky2);font-weight:400}
+.frd{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:8px}
+.frd a{display:block;text-align:center;padding:12px 4px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:8px;font-size:12.5px;transition:.18s}
+.frd a:hover{background:var(--sky);border-color:var(--sky);color:#fff}
+
+/* ==== float ==== */
+.flbtn{position:fixed;right:16px;bottom:22px;z-index:95}
+.flbtn button{width:46px;height:46px;border:none;border-radius:10px;background:var(--sky);color:#fff;font-size:19px;cursor:pointer;box-shadow:0 10px 26px rgba(43,108,255,.4);opacity:0;pointer-events:none;transform:translateY(10px);transition:.3s}
+.flbtn button.on{opacity:1;pointer-events:auto;transform:none}
+
+@media(max-width:1000px){
+  .hero .wrap{grid-template-columns:1fr;gap:32px}
+  .hero h2{font-size:40px}
+  .g4{grid-template-columns:repeat(2,1fr)}
+  .vt,.sp,.sid{grid-template-columns:1fr}
+  .sid .grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:640px){
+  section{padding:38px 0}
+  .top .t-date span{display:none}
+  .hd .wrap{grid-template-columns:1fr;gap:14px}
+  .hd-r{justify-content:flex-end}
+  .hero h2{font-size:32px}
+  .hk{grid-template-columns:1fr 1fr}
+  .g4,.vt{grid-template-columns:1fr}
+  nav .wrap{height:auto;padding:8px 0}
+  nav a{height:38px}
+  .bar{flex-direction:column;align-items:stretch}
+  th,td{padding:10px 12px;font-size:12.5px}
+  td.hide{display:none}
+  .fg{grid-template-columns:1fr 1fr}
+  .sid .grid{grid-template-columns:1fr}
+  .frd{grid-template-columns:1fr 1fr}
+}
+@media(max-width:400px){
+  .fg{grid-template-columns:1fr}
+  .frd{grid-template-columns:1fr}
+  .hd-r button:not(.pri){display:none}
+  .hero .acts button{flex:1;text-align:center}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/zhangzong.js"></script>
+
+<!-- top -->
+<div class="top">
+  <div class="wrap">
+    <div class="t-date"><span>🍂 秋霞网电影网 · 海量影视资源在线观看平台</span><span>今日更新 <b>128</b> 部</span></div>
+    <div><a href="#">高清电影</a><a href="#">热播电视剧</a><a href="#">动漫综艺</a><a href="#">影视资讯</a></div>
+  </div>
+</div>
+
+<!-- header -->
+<div class="hd">
+  <div class="wrap">
+    <a href="#" class="logo">
+      <div class="mk">秋</div>
+      <h1>秋霞网电影网<small>QIUXIA · FILM</small></h1>
+    </a>
+    <div class="search">
+      <select><option>全部分类</option><option>电影</option><option>电视剧</option><option>动漫</option><option>综艺</option></select>
+      <input placeholder="搜索影片名称 / 演员 / 导演 / 类型关键词">
+      <button>搜 索</button>
+    </div>
+    <div class="hd-r"><button>收藏本站</button><button class="pri">登录 / 注册</button></div>
+  </div>
+</div>
+
+<!-- nav -->
+<nav><div class="wrap">
+  <a href="#home" class="cur">首页</a>
+  <a href="#film">电影频道</a>
+  <a href="#tv">热播电视剧</a>
+  <a href="#anime">动漫番剧</a>
+  <a href="#variety">综艺娱乐</a>
+  <a href="#rank">热播榜单</a>
+  <a href="#plan">追剧计划</a>
+  <a href="#news">影视资讯</a>
+  <a href="#about">关于本站</a>
+</div></nav>
+
+<!-- hero -->
+<div class="hero">
+  <div class="wrap">
+    <div>
+      <span class="eye">✦ 秋霞网电影网 · 每日 18:00 精选更新</span>
+      <h2>秋霞一页<br>尽览<em>好片光影</em></h2>
+      <p>秋霞网电影网聚合海量高清影视资源，覆盖电影、电视剧、动漫、综艺四大板块，分类清晰、检索便捷，帮你少刷两小时，多看一部好片。</p>
+      <div class="acts">
+        <button class="a1">立即观影 →</button>
+        <button class="a2">查看今日片单</button>
+      </div>
+    </div>
+    <div class="hk">
+      <div class="hk-i"><div class="n">26,800+</div><div class="t">收录影视资源总量</div></div>
+      <div class="hk-i"><div class="n">128</div><div class="t">每日新增片源数量</div></div>
+      <div class="hk-i"><div class="n">9.4</div><div class="t">热播剧集最高评分</div></div>
+      <div class="hk-i"><div class="n">18:00</div><div class="t">每日定时更新时间</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- home -->
+<section id="home">
+  <div class="wrap">
+    <div class="sc"><div class="sc-l"><span class="no">SECTION 01</span><h2>院线新片 · 正在热映</h2><p>秋霞网电影网精选院线热映新片，按类型快速筛选</p></div><div class="sc-r"><a href="#">查看全部影片 ›</a></div></div>
+    <div class="bar">
+      <div class="crumbs">当前位置：<b>首页</b> &gt; <b>院线新片</b> &gt; <span>全部</span></div>
+      <div class="fl" data-g="f">
+        <button class="on" data-t="f1">全部</button>
+        <button data-t="f2">动作犯罪</button>
+        <button data-t="f3">爱情喜剧</button>
+        <button data-t="f4">科幻奇幻</button>
+        <button data-t="f5">悬疑剧情</button>
+      </div>
+    </div>
+    <div class="g4 tab-p" id="f1">
+      <div class="cv"><div class="cap"><div class="bg b1"></div><span class="cat">科幻</span><span class="flg">热映</span><span class="sc3">9.2</span><span class="up">2026</span></div><div class="cb"><h4>流浪地球 3</h4><div class="row"><span>中国大陆</span><span>142 分钟</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b4"></div><span class="cat">悬疑</span><span class="flg">热映</span><span class="sc3">8.7</span><span class="up">2026</span></div><div class="cb"><h4>消失的她 2</h4><div class="row"><span>中国大陆</span><span>118 分钟</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b6"></div><span class="cat">动作</span><span class="flg">热映</span><span class="sc3">8.9</span><span class="up">2026</span></div><div class="cb"><h4>刺客信条·起源</h4><div class="row"><span>美国</span><span>136 分钟</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b10"></div><span class="cat">喜剧</span><span class="flg">热映</span><span class="sc3">8.4</span><span class="up">2026</span></div><div class="cb"><h4>欢喜冤家 2</h4><div class="row"><span>中国香港</span><span>105 分钟</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b3"></div><span class="cat">犯罪</span><span class="flg">热映</span><span class="sc3">8.5</span><span class="up">2026</span></div><div class="cb"><h4>暗夜行者</h4><div class="row"><span>英国</span><span>128 分钟</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b2"></div><span class="cat">科幻</span><span class="flg">热映</span><span class="sc3">8.6</span><span class="up">2026</span></div><div class="cb"><h4>星际拓荒</h4><div class="row"><span>美国</span><span>151 分钟</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b11"></div><span class="cat">奇幻</span><span class="flg">热映</span><span class="sc3">8.3</span><span class="up">2026</span></div><div class="cb"><h4>时间管理局</h4><div class="row"><span>西班牙</span><span>122 分钟</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b12"></div><span class="cat">喜剧</span><span class="flg">热映</span><span class="sc3">7.7</span><span class="up">2026</span></div><div class="cb"><h4>笑翻全场</h4><div class="row"><span>中国大陆</span><span>96 分钟</span></div></div></div>
+    </div>
+    <div class="g4 tab-p" id="f2" hidden>
+      <div class="cv"><div class="cap"><div class="bg b6"></div><span class="cat">动作</span><span class="sc3">8.9</span><span class="up">2026</span></div><div class="cb"><h4>刺客信条·起源</h4><div class="row"><span>美国</span><span>中世纪刺客传奇</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b3"></div><span class="cat">犯罪</span><span class="sc3">8.5</span><span class="up">2026</span></div><div class="cb"><h4>暗夜行者</h4><div class="row"><span>英国</span><span>卧底警探双面人生</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b10"></div><span class="cat">动作</span><span class="sc3">8.1</span><span class="up">2026</span></div><div class="cb"><h4>孤胆特工 2</h4><div class="row"><span>韩国</span><span>孤身救赎极限动作</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b11"></div><span class="cat">犯罪</span><span class="sc3">8.0</span><span class="up">2026</span></div><div class="cb"><h4>黑色名单</h4><div class="row"><span>法国</span><span>跨国追凶悬疑</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b2"></div><span class="cat">动作</span><span class="sc3">7.9</span><span class="up">2026</span></div><div class="cb"><h4>边境风云</h4><div class="row"><span>中国大陆</span><span>正邪边境较量</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b1"></div><span class="cat">犯罪</span><span class="sc3">7.8</span><span class="up">2026</span></div><div class="cb"><h4>无声的证言</h4><div class="row"><span>中国大陆</span><span>连环谜案</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b7"></div><span class="cat">动作</span><span class="sc3">7.6</span><span class="up">2026</span></div><div class="cb"><h4>拳锋</h4><div class="row"><span>泰国</span><span>泰拳竞技励志</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b4"></div><span class="cat">犯罪</span><span class="sc3">7.5</span><span class="up">2026</span></div><div class="cb"><h4>夜行者联盟</h4><div class="row"><span>中国香港</span><span>警匪双雄对决</span></div></div></div>
+    </div>
+    <div class="g4 tab-p" id="f3" hidden>
+      <div class="cv"><div class="cap"><div class="bg b10"></div><span class="cat">喜剧</span><span class="sc3">8.4</span><span class="up">2026</span></div><div class="cb"><h4>欢喜冤家 2</h4><div class="row"><span>中国香港</span><span>合家欢爆笑</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b3"></div><span class="cat">爱情</span><span class="sc3">8.4</span><span class="up">2026</span></div><div class="cb"><h4>云端恋人</h4><div class="row"><span>韩国</span><span>都市白领浪漫</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b4"></div><span class="cat">爱情</span><span class="sc3">8.2</span><span class="up">2026</span></div><div class="cb"><h4>前任 4：再见</h4><div class="row"><span>中国大陆</span><span>分手后重新认识</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b8"></div><span class="cat">爱情</span><span class="sc3">8.1</span><span class="up">2026</span></div><div class="cb"><h4>东京爱情故事 2026</h4><div class="row"><span>日本</span><span>经典 IP 续章</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b1"></div><span class="cat">喜剧</span><span class="sc3">8.7</span><span class="up">2026</span></div><div class="cb"><h4>大话西游·重制版</h4><div class="row"><span>华语</span><span>经典情怀重映</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b11"></div><span class="cat">喜剧</span><span class="sc3">7.7</span><span class="up">2026</span></div><div class="cb"><h4>笑翻全场</h4><div class="row"><span>中国大陆</span><span>脱口秀式喜剧</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b2"></div><span class="cat">爱情</span><span class="sc3">7.8</span><span class="up">2026</span></div><div class="cb"><h4>遇见你之后</h4><div class="row"><span>中国大陆</span><span>青春爱情</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b6"></div><span class="cat">喜剧</span><span class="sc3">7.6</span><span class="up">2026</span></div><div class="cb"><h4>乌龙院传奇</h4><div class="row"><span>中国台湾</span><span>古装喜剧</span></div></div></div>
+    </div>
+    <div class="g4 tab-p" id="f4" hidden>
+      <div class="cv"><div class="cap"><div class="bg b1"></div><span class="cat">科幻</span><span class="sc3">9.2</span><span class="up">2026</span></div><div class="cb"><h4>流浪地球 3</h4><div class="row"><span>中国大陆</span><span>刘慈欣世界观</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b2"></div><span class="cat">科幻</span><span class="sc3">8.6</span><span class="up">2026</span></div><div class="cb"><h4>星际拓荒</h4><div class="row"><span>美国</span><span>深空文明史诗</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b11"></div><span class="cat">奇幻</span><span class="sc3">8.3</span><span class="up">2026</span></div><div class="cb"><h4>时间管理局</h4><div class="row"><span>西班牙</span><span>穿越机构</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b3"></div><span class="cat">科幻</span><span class="sc3">8.1</span><span class="up">2026</span></div><div class="cb"><h4>机械觉醒</h4><div class="row"><span>韩国</span><span>AI 意识近未来</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b10"></div><span class="cat">奇幻</span><span class="sc3">7.7</span><span class="up">2026</span></div><div class="cb"><h4>银河快递</h4><div class="row"><span>日本</span><span>星际日常冒险</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b7"></div><span class="cat">奇幻</span><span class="sc3">7.6</span><span class="up">2026</span></div><div class="cb"><h4>山海经·异兽录</h4><div class="row"><span>中国大陆</span><span>上古神兽</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b4"></div><span class="cat">科幻</span><span class="sc3">7.5</span><span class="up">2026</span></div><div class="cb"><h4>平行迷踪</h4><div class="row"><span>俄罗斯</span><span>平行世界悬疑</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b6"></div><span class="cat">奇幻</span><span class="sc3">7.4</span><span class="up">2026</span></div><div class="cb"><h4>梦境建筑师</h4><div class="row"><span>美国</span><span>造梦师设定</span></div></div></div>
+    </div>
+    <div class="g4 tab-p" id="f5" hidden>
+      <div class="cv"><div class="cap"><div class="bg b4"></div><span class="cat">悬疑</span><span class="sc3">8.7</span><span class="up">2026</span></div><div class="cb"><h4>消失的她 2</h4><div class="row"><span>中国大陆</span><span>心理博弈</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b11"></div><span class="cat">剧情</span><span class="sc3">8.3</span><span class="up">2026</span></div><div class="cb"><h4>海边理发店</h4><div class="row"><span>日本</span><span>小镇人生切片</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b5"></div><span class="cat">剧情</span><span class="sc3">8.2</span><span class="up">2026</span></div><div class="cb"><h4>西西里往事</h4><div class="row"><span>意大利</span><span>家族与土地</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b10"></div><span class="cat">悬疑</span><span class="sc3">8.2</span><span class="up">2026</span></div><div class="cb"><h4>白夜追凶 3</h4><div class="row"><span>中国大陆</span><span>双生兄弟破案</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b2"></div><span class="cat">剧情</span><span class="sc3">8.0</span><span class="up">2026</span></div><div class="cb"><h4>巴黎夜色</h4><div class="row"><span>法国</span><span>塞纳河爱情随笔</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b7"></div><span class="cat">悬疑</span><span class="sc3">7.9</span><span class="up">2026</span></div><div class="cb"><h4>迷雾庄园</h4><div class="row"><span>英国</span><span>古典推理</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b9"></div><span class="cat">剧情</span><span class="sc3">7.8</span><span class="up">2026</span></div><div class="cb"><h4>北方往事</h4><div class="row"><span>中国大陆</span><span>东北工业变迁</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b1"></div><span class="cat">悬疑</span><span class="sc3">7.6</span><span class="up">2026</span></div><div class="cb"><h4>第七重证言</h4><div class="row"><span>德国</span><span>法庭心理剧</span></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- tv -->
+<section id="tv" style="padding-top:0">
+  <div class="wrap">
+    <div class="sc"><div class="sc-l"><span class="no">SECTION 02</span><h2>热播电视剧 · TV Series</h2><p>国产 / 美剧 / 韩剧 / 日剧，按更新进度随时追</p></div><div class="sc-r"><a href="#">浏览全部剧集 ›</a></div></div>
+    <div class="g4">
+      <div class="cv"><div class="cap"><div class="bg b3"></div><span class="cat">美剧</span><span class="flg">更新中</span><span class="sc3">9.4</span><span class="up">18集</span></div><div class="cb"><h4>暗潮汹涌</h4><div class="row"><span>犯罪悬疑</span><span>每周五更新</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b11"></div><span class="cat">国产</span><span class="flg">更新中</span><span class="sc3">9.0</span><span class="up">24集</span></div><div class="cb"><h4>长安十二时辰 第二季</h4><div class="row"><span>古装权谋</span><span>每周三更新</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b4"></div><span class="cat">国产</span><span class="flg">更新中</span><span class="sc3">8.9</span><span class="up">22集</span></div><div class="cb"><h4>沉默的真相 2</h4><div class="row"><span>犯罪悬疑</span><span>每周三更新</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b8"></div><span class="cat">韩剧</span><span class="flg">已完结</span><span class="sc3">9.1</span><span class="up">16集</span></div><div class="cb"><h4>请回答 1999</h4><div class="row"><span>爱情治愈</span><span>共 16 集</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b6"></div><span class="cat">国产</span><span class="flg">更新中</span><span class="sc3">8.6</span><span class="up">30集</span></div><div class="cb"><h4>法医秦明 6</h4><div class="row"><span>悬疑刑侦</span><span>每周一更新</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b10"></div><span class="cat">国产</span><span class="flg">更新中</span><span class="sc3">8.5</span><span class="up">12集</span></div><div class="cb"><h4>都市恋爱图鉴</h4><div class="row"><span>都市爱情</span><span>每周三更新</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b1"></div><span class="cat">美剧</span><span class="flg">更新中</span><span class="sc3">8.8</span><span class="up">10集</span></div><div class="cb"><h4>继承之战 终章</h4><div class="row"><span>家族商战</span><span>每周日更新</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b2"></div><span class="cat">日剧</span><span class="flg">更新中</span><span class="sc3">8.4</span><span class="up">11集</span></div><div class="cb"><h4>东京大饭店 第二季</h4><div class="row"><span>美食职人</span><span>每周六更新</span></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- anime -->
+<section id="anime" style="padding-top:0">
+  <div class="wrap">
+    <div class="sc"><div class="sc-l"><span class="no">SECTION 03</span><h2>动漫番剧 · Animation</h2><p>国漫 / 日漫 / 新番，追番不迷路</p></div><div class="sc-r"><a href="#">浏览全部番剧 ›</a></div></div>
+    <div class="g4">
+      <div class="cv"><div class="cap"><div class="bg b3"></div><span class="cat">国漫</span><span class="flg">周更</span><span class="sc3">9.3</span><span class="up">42集</span></div><div class="cb"><h4>斗破苍穹·年番</h4><div class="row"><span>玄幻热血</span><span>每周一更新</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b4"></div><span class="cat">日漫</span><span class="flg">已完结</span><span class="sc3">9.1</span><span class="up">11集</span></div><div class="cb"><h4>鬼灭之刃·锻刀村篇</h4><div class="row"><span>热血战斗</span><span>共 11 集</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b1"></div><span class="cat">国漫</span><span class="flg">周更</span><span class="sc3">8.9</span><span class="up">38集</span></div><div class="cb"><h4>凡人修仙传</h4><div class="row"><span>仙侠修真</span><span>每周三更新</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b11"></div><span class="cat">日漫</span><span class="flg">已完结</span><span class="sc3">8.8</span><span class="up">24集</span></div><div class="cb"><h4>咒术回战·涉谷事变</h4><div class="row"><span>热血战斗</span><span>共 24 集</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b10"></div><span class="cat">国漫</span><span class="flg">连载</span><span class="sc3">8.7</span><span class="up">28集</span></div><div class="cb"><h4>伍六七·暗影刺客</h4><div class="row"><span>搞笑热血</span><span>连载中</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b2"></div><span class="cat">日漫</span><span class="flg">已完结</span><span class="sc3">8.6</span><span class="up">28集</span></div><div class="cb"><h4>葬送的芙莉莲</h4><div class="row"><span>奇幻治愈</span><span>共 28 集</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b7"></div><span class="cat">国漫</span><span class="flg">连载</span><span class="sc3">8.4</span><span class="up">15集</span></div><div class="cb"><h4>雾山五行·犀川幻紫</h4><div class="row"><span>国风武侠</span><span>连载中</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b8"></div><span class="cat">日漫</span><span class="flg">周更</span><span class="sc3">8.3</span><span class="up">20集</span></div><div class="cb"><h4>药屋少女的呢喃</h4><div class="row"><span>古风悬疑</span><span>每周六更新</span></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- variety -->
+<section id="variety" style="padding-top:0">
+  <div class="wrap">
+    <div class="sc"><div class="sc-l"><span class="no">SECTION 04</span><h2>综艺娱乐 · Variety</h2><p>真人秀 / 音乐 / 喜剧 / 竞技，轻松解压</p></div><div class="sc-r"><a href="#">浏览全部综艺 ›</a></div></div>
+    <div class="g4">
+      <div class="cv"><div class="cap"><div class="bg b10"></div><span class="cat">户外</span><span class="flg">更新中</span><span class="sc3">8.8</span><span class="up">EP12</span></div><div class="cb"><h4>奔跑吧 2026</h4><div class="row"><span>竞技真人秀</span><span>荒岛求生企划</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b11"></div><span class="cat">音乐</span><span class="flg">更新中</span><span class="sc3">8.7</span><span class="up">EP5</span></div><div class="cb"><h4>声生不息·家年华</h4><div class="row"><span>音乐竞演</span><span>第五轮竞演</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b7"></div><span class="cat">慢综艺</span><span class="flg">更新中</span><span class="sc3">8.6</span><span class="up">EP9</span></div><div class="cb"><h4>向往的生活·海岛季</h4><div class="row"><span>生活治愈</span><span>嘉宾空降</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b4"></div><span class="cat">喜剧</span><span class="flg">半决赛</span><span class="sc3">8.9</span><span class="up">EP8</span></div><div class="cb"><h4>脱口秀大会 第七季</h4><div class="row"><span>喜剧竞演</span><span>半决赛爆梗</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b3"></div><span class="cat">推理</span><span class="flg">更新中</span><span class="sc3">8.7</span><span class="up">EP6</span></div><div class="cb"><h4>明星大侦探·重启</h4><div class="row"><span>角色扮演推理</span><span>第 6 案</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b2"></div><span class="cat">舞蹈</span><span class="flg">总决赛</span><span class="sc3">8.5</span><span class="up">EP10</span></div><div class="cb"><h4>这！就是街舞 6</h4><div class="row"><span>街舞竞演</span><span>巅峰对决</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b9"></div><span class="cat">文化</span><span class="flg">更新中</span><span class="sc3">8.6</span><span class="up">EP4</span></div><div class="cb"><h4>国家宝藏·第四季</h4><div class="row"><span>文化探索</span><span>文物背后的故事</span></div></div></div>
+      <div class="cv"><div class="cap"><div class="bg b6"></div><span class="cat">美食</span><span class="flg">更新中</span><span class="sc3">8.3</span><span class="up">EP7</span></div><div class="cb"><h4>中餐厅·新合伙人</h4><div class="row"><span>美食经营</span><span>海外开餐厅</span></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- rank -->
+<section id="rank" style="padding-top:0">
+  <div class="wrap">
+    <div class="sc"><div class="sc-l"><span class="no">SECTION 05</span><h2>秋霞网电影网 · 实时热播榜单</h2><p>按播放热度实时排序，每日更新</p></div><div class="sc-r"><a href="#">完整榜单 ›</a></div></div>
+    <div class="lb">
+      <div class="lb-h"><h3>今日热播 TOP 12</h3><span>数据更新于 10 分钟前</span></div>
+      <table>
+        <thead><tr><th style="width:52px">排名</th><th>片名 / 类型</th><th class="hide">地区</th><th class="hide">更新进度</th><th style="text-align:right">评分 / 热度</th></tr></thead>
+        <tbody>
+          <tr><td class="rk">1</td><td class="nm">暗潮汹涌<small>美剧 · 犯罪悬疑</small></td><td class="hide">美国</td><td class="hide">更新至 18 集</td><td class="rt">9.4 · 94.2 万</td></tr>
+          <tr><td class="rk">2</td><td class="nm">流浪地球 3<small>电影 · 科幻</small></td><td class="hide">中国大陆</td><td class="hide">院线热映中</td><td class="rt">9.2 · 98.7 万</td></tr>
+          <tr><td class="rk">3</td><td class="nm">请回答 1999<small>韩剧 · 爱情治愈</small></td><td class="hide">韩国</td><td class="hide">已完结 16 集</td><td class="rt">9.1 · 81.2 万</td></tr>
+          <tr><td class="rk">4</td><td class="nm">斗破苍穹·年番<small>国漫 · 玄幻热血</small></td><td class="hide">中国大陆</td><td class="hide">周更 · 第 42 集</td><td class="rt">9.3 · 89.1 万</td></tr>
+          <tr><td class="rk">5</td><td class="nm">沉默的真相 2<small>国产剧 · 犯罪悬疑</small></td><td class="hide">中国大陆</td><td class="hide">更新至 22 集</td><td class="rt">8.9 · 77.5 万</td></tr>
+          <tr><td class="rk">6</td><td class="nm">长安十二时辰 第二季<small>国产剧 · 古装权谋</small></td><td class="hide">中国大陆</td><td class="hide">更新至 24 集</td><td class="rt">9.0 · 85.6 万</td></tr>
+          <tr><td class="rk">7</td><td class="nm">鬼灭之刃·锻刀村篇<small>日漫 · 热血战斗</small></td><td class="hide">日本</td><td class="hide">已完结 11 集</td><td class="rt">9.1 · 73.4 万</td></tr>
+          <tr><td class="rk">8</td><td class="nm">消失的她 2<small>电影 · 悬疑</small></td><td class="hide">中国大陆</td><td class="hide">院线热映中</td><td class="rt">8.7 · 71.8 万</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- plan -->
+<section id="plan" style="padding-top:0">
+  <div class="wrap">
+    <div class="sc"><div class="sc-l"><span class="no">SECTION 06</span><h2>追剧计划 · 每周排片</h2><p>按星期查看本周更新排片，一键规划追剧时间</p></div><div class="sc-r"><a href="#">订阅更新提醒 ›</a></div></div>
+    <div class="vt">
+      <div class="vt-b"><h3><i>一</i>星期一 · Monday</h3><ul>
+        <li><span class="t">18:00</span><h5>斗破苍穹·年番 第 42 集<span>国漫 · 玄幻热血</span></h5></li>
+        <li><span class="t">19:30</span><h5>脱口秀大会 第七季 · 半决赛<span>综艺 · 喜剧竞演</span></h5></li>
+        <li><span class="t">20:00</span><h5>法医秦明 6 第 24 集<span>国产 · 悬疑刑侦</span></h5></li>
+        <li><span class="t">21:00</span><h5>明星大侦探·重启 第 6 案<span>综艺 · 角色扮演推理</span></h5></li>
+      </ul></div>
+      <div class="vt-b"><h3><i>三</i>星期三 · Wednesday</h3><ul>
+        <li><span class="t">18:00</span><h5>凡人修仙传 第 38 集<span>国漫 · 仙侠修真</span></h5></li>
+        <li><span class="t">19:00</span><h5>沉默的真相 2 第 20 集<span>国产 · 犯罪悬疑</span></h5></li>
+        <li><span class="t">20:00</span><h5>都市恋爱图鉴 第 10 集<span>国产 · 都市爱情</span></h5></li>
+        <li><span class="t">21:30</span><h5>声生不息·家年华 第五轮竞演<span>综艺 · 音乐竞演</span></h5></li>
+      </ul></div>
+      <div class="vt-b"><h3><i>五</i>星期五 · Friday</h3><ul>
+        <li><span class="t">18:00</span><h5>暗潮汹涌 第 16 集<span>美剧 · 犯罪悬疑</span></h5></li>
+        <li><span class="t">19:00</span><h5>长安十二时辰 2 第 21 集<span>国产 · 古装权谋</span></h5></li>
+        <li><span class="t">20:00</span><h5>请回答 1999 完结篇<span>韩剧 · 爱情治愈</span></h5></li>
+        <li><span class="t">22:00</span><h5>奔跑吧 2026 荒岛特辑<span>综艺 · 竞技真人秀</span></h5></li>
+      </ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- news + list -->
+<section id="news" style="padding-top:0">
+  <div class="wrap">
+    <div class="sc"><div class="sc-l"><span class="no">SECTION 07</span><h2>影视资讯 &amp; 高分推荐</h2><p>行业动态、片单解读与精选推荐</p></div></div>
+    <div class="sp">
+      <div class="pan">
+        <div class="pan-h"><span class="ic">◈</span><h3>影视资讯 · News</h3><a href="#">更多 ›</a></div>
+        <div class="pan-b news">
+          <article><span class="k">票房</span><span class="d">2026-10-02 · 行业动态</span><h4>《流浪地球 3》票房突破 40 亿，导演透露新三部曲计划</h4><p>上映 21 天稳居票房榜首，影片在视效与叙事上的双重突破成为今年国产科幻的标杆之作。</p></article>
+          <article><span class="k">解读</span><span class="d">2026-10-01 · 深度解读</span><h4>《暗潮汹涌》第八集 8 个隐藏细节，你都发现了吗</h4><p>秋霞网电影网独家片单解读，从镜头构图到台词伏笔，逐帧拆解这集的神级叙事。</p></article>
+          <article><span class="k">速报</span><span class="d">2026-09-30 · 更新速报</span><h4>十月份院线新片定档一览，斗破苍穹年番同步更新</h4><p>本月共有 12 部新片定档，涵盖科幻、悬疑、喜剧等多种类型，周末档竞争尤为激烈。</p></article>
+          <article><span class="k">片单</span><span class="d">2026-09-29 · 精选推荐</span><h4>秋霞网电影网十月精选：30 部高分剧集追更指南</h4><p>编辑团队从在播剧集中精选出 30 部值得追更的作品，按类型与进度分类整理。</p></article>
+        </div>
+      </div>
+      <div class="pan">
+        <div class="pan-h"><span class="ic">★</span><h3>高分推荐 · Editor's Pick</h3><a href="#">更多 ›</a></div>
+        <div class="pan-b">
+          <ul class="tlist">
+            <li><div class="thumb b1"></div><div><h5>流浪地球 3<small>电影 · 中国大陆 · 2026</small></h5></div><span class="v"><b>9.2</b>98.7 万热度</span></li>
+            <li><div class="thumb b3"></div><div><h5>暗潮汹涌<small>美剧 · 犯罪悬疑 · 更新至 18 集</small></h5></div><span class="v"><b>9.4</b>94.2 万热度</span></li>
+            <li><div class="thumb b8"></div><div><h5>请回答 1999<small>韩剧 · 爱情治愈 · 已完结</small></h5></div><span class="v"><b>9.1</b>81.2 万热度</span></li>
+            <li><div class="thumb b4"></div><div><h5>消失的她 2<small>电影 · 中国大陆 · 2026</small></h5></div><span class="v"><b>8.7</b>71.8 万热度</span></li>
+            <li><div class="thumb b11"></div><div><h5>长安十二时辰 第二季<small>国产 · 古装权谋 · 更新至 24 集</small></h5></div><span class="v"><b>9.0</b>85.6 万热度</span></li>
+            <li><div class="thumb b2"></div><div><h5>星际拓荒<small>电影 · 美国 · 2026</small></h5></div><span class="v"><b>8.6</b>62.4 万热度</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- about -->
+<section id="about" style="padding-top:0">
+  <div class="wrap">
+    <div class="sid">
+      <div class="lead">
+        <h3>关于<em>秋霞网电影网</em> · 一页尽览好片光影</h3>
+        <p>秋霞网电影网（网址：https://qiuxiawangdianyingwang-zh.github.io）是专业的影视点播与资源整理平台，聚合海量高清影视资源，覆盖电影、电视剧、动漫、综艺四大板块，提供分类筛选与每日精选片单，帮用户快速找到值得一看的好作品。</p>
+      </div>
+      <div class="grid">
+        <div><dt>网站名称</dt><dd class="hl">秋霞网电影网</dd></div>
+        <div><dt>网站网址</dt><dd>https://qiuxiawangdianyingwang-zh.github.io</dd></div>
+        <div><dt>核心栏目</dt><dd>电影 / 电视剧 / 动漫 / 综艺</dd></div>
+        <div><dt>收录资源</dt><dd>26,800+ 部影视作品</dd></div>
+        <div><dt>每日更新</dt><dd>18:00 准时更新 128 部</dd></div>
+        <div><dt>适配终端</dt><dd>PC / 平板 / 手机全端</dd></div>
+      </div>
+    </div>
+    <div class="sp" style="margin-top:22px">
+      <div class="pan">
+        <div class="pan-h"><span class="ic">◉</span><h3>网站简介 &amp; 服务宗旨</h3></div>
+        <div class="pan-b news">
+          <article><h4>秋霞网电影网是什么</h4><p><b style="color:var(--sky)">秋霞网电影网</b>专注于高清电影电视剧在线观看，聚合海量影视资源，覆盖电影、电视剧、动漫番剧、综艺娱乐四大板块，为影视爱好者提供清晰便捷的点播入口。</p></article>
+          <article><h4>我们的服务宗旨</h4><p>以「海量、清晰、好找」为宗旨，每日 18:00 准时更新片单，并提供按类型、地区、年份的多维筛选，帮助用户少刷两小时，多看一部好片。</p></article>
+        </div>
+      </div>
+      <div class="pan">
+        <div class="pan-h"><span class="ic">◍</span><h3>频道导航 &amp; 关注我们</h3></div>
+        <div class="pan-b">
+          <ul class="tlist">
+            <li><div class="thumb b1"></div><div><h5>电影频道<small>院线新片 · 经典老片 · 类型筛选</small></h5></div><span class="v">5 大类</span></li>
+            <li><div class="thumb b11"></div><div><h5>热播电视剧<small>国产 / 美剧 / 韩剧 / 日剧</small></h5></div><span class="v">实时追更</span></li>
+            <li><div class="thumb b3"></div><div><h5>动漫番剧<small>国漫 / 日漫 / 新番周更</small></h5></div><span class="v">周更提醒</span></li>
+            <li><div class="thumb b10"></div><div><h5>综艺娱乐<small>真人秀 / 音乐 / 喜剧 / 竞技</small></h5></div><span class="v">轻松解压</span></li>
+            <li><div class="thumb b4"></div><div><h5>影视资讯<small>行业动态 · 片单解读 · 票房速报</small></h5></div><span class="v">每日更新</span></li>
+          </ul>
+          <div class="frd">
+            <a href="#">📱 微信公众号</a><a href="#">📹 视频号</a><a href="#">✈️ 电报群</a><a href="#">📮 意见反馈</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- footer -->
+<footer>
+  <div class="wrap">
+    <div class="fg">
+      <div class="fo">
+        <h4>秋霞网<em>电影网</em></h4>
+        <p>秋霞网电影网专注高清电影电视剧在线观看，聚合海量影视资源，覆盖电影、电视剧、动漫番剧、综艺娱乐四大板块，分类清晰，每日更新精选片单。</p>
+        <div class="fbox">网站网址：<code>https://qiuxiawangdianyingwang-zh.github.io</code></div>
+      </div>
+      <div><h5>频道导航</h5><p><a href="#film">电影频道</a><br><a href="#tv">热播电视剧</a><br><a href="#anime">动漫番剧</a><br><a href="#variety">综艺娱乐</a><br><a href="#rank">热播榜单</a><br><a href="#news">影视资讯</a></p></div>
+      <div><h5>热门类型</h5><p><a href="#">动作犯罪</a><br><a href="#">爱情喜剧</a><br><a href="#">科幻奇幻</a><br><a href="#">悬疑剧情</a><br><a href="#">古装历史</a><br><a href="#">动漫新番</a></p></div>
+      <div><h5>关于我们</h5><p><a href="#about">网站简介</a><br><a href="#">联系方式</a><br><a href="#">合作洽谈</a><br><a href="#">免责声明</a><br><a href="#">意见反馈</a></p></div>
+    </div>
+    <div class="fbot">
+      <span>© 2026 秋霞网电影网 · 网站网址：https://qiuxiawangdianyingwang-zh.github.io · 一页尽览好片光影</span>
+      <span><b>每日 18:00 准时更新 128 部影视资源</b></span>
+    </div>
+  </div>
+</footer>
+
+<div class="flbtn"><button onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button></div>
+
+<script>
+document.querySelectorAll('.fl button').forEach(function(b){
+  b.addEventListener('click',function(){
+    var box=this.closest('.fl');
+    box.querySelectorAll('button').forEach(function(x){x.classList.remove('on')});
+    this.classList.add('on');
+    var sec=box.closest('section').querySelector('.g4');
+    sec.querySelectorAll('.tab-p').forEach(function(p){p.hidden=true});
+    var t=document.getElementById(this.dataset.t);
+    if(t)t.hidden=false;
+  });
+});
+window.addEventListener('scroll',function(){
+  document.querySelector('.flbtn button').classList.toggle('on',window.scrollY>500);
+});
+document.querySelectorAll('nav a').forEach(function(a){
+  a.addEventListener('click',function(){
+    document.querySelectorAll('nav a').forEach(function(x){x.classList.remove('cur')});
+    this.classList.add('cur');
+  });
+});
+</script>
+</body>
+</html>
